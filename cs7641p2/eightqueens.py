@@ -30,12 +30,4 @@ if __name__ == "__main__":
     # Define initial state
     init_state = np.array([0, 1, 2, 3, 4, 5, 6, 7])
 
-    # Solve problem using simulated annealing
-    best_state, best_fitness = mlrose.simulated_annealing(problem, schedule=schedule,
-                                                          max_attempts=100, max_iters=1000,
-                                                          init_state=init_state, random_state=1)
-
-    print(best_state)
-
-    print(best_fitness)
 
