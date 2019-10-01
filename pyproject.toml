@@ -6,7 +6,7 @@ authors = ["Alan Franzoni <alan.franzoni@gatech.edu>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-mlrose = "^1.2"
+mlrose-hiive = { git = "https://github.com/hiive/mlrose.git" }
 numpy = "^1.17"
 ipython = "^7.8"
 six = "^1.12"
